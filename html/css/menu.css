@@ -1,0 +1,48 @@
+/*Definition der Top Menu-Liste*/
+#topContainerMenu ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*Definition der Top Menu-Schrift*/
+#topContainerMenu a:link, #topContainerMenu a:visited {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+
+/*Definition der Top Menu-Schrift waehrend sich die Maus darauf befindet*/
+#topContainerMenu li a:hover, #topContainerMenu li a:focus {
+	color: #FFFFFF;
+}
+
+/*Definition der Top Menu-Hintergrundfarbe*/
+#topContainerMenu #mainmenu {
+	position: absolute;
+	bottom: -20px;
+	width: 100%;
+	background: url('../img/menubg.jpg') repeat top left;
+}
+
+/*Ordnet die Liste der Top Menu-Punkte nebeneinander an*/
+#topContainerMenu #mainmenu li {
+	float: left;
+}
+
+/*Definition der Abstaende und Trennzeichen der Top Menu-Punkte*/
+#topContainerMenu #mainmenu a:link, #topContainerMenu #mainmenu a:visited {
+	display: block;
+	font-size: 1.1em;
+	padding: 5px 0px 5px 0px;
+	width: 156px;
+	text-align: center;
+	border-right: 1px solid #AAAAAA;
+}
+
+#topContainerMenu #mainmenu #lastMainItem a {
+	border-right: none;
+}
+
+#topContainerBody #topContainerMenu {
+	background: #FFFFFF url('../img/Banner.jpg') no-repeat scroll top left;
+}

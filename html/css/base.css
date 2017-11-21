@@ -1,0 +1,89 @@
+/*Definition der Allgemeinen Schrifteinstellungen*/
+*	{
+	margin: 0; 
+	padding: 0; 		
+	line-height: 1.5em;
+	border: none;
+}
+
+html {
+	font-size: 0.9em;
+}
+
+body { 
+	background: transparent url('../img/schatten.png') repeat-y top center;
+	font-family: 'Arial';
+	color: #333333;
+	font-size: 0.9em;
+}
+
+/*Definition des Containers mit Banner und Menu oberhalb der Website*/
+#topContainer {
+	position: absolute;
+	width: 100%;
+	height: 145px;
+	padding-top: 10px;
+	top: 0px;
+}
+
+/*Definition des Banners oberhalb der Website*/
+#topContainerPicture {  
+	margin: 0px auto 0px auto;
+	width: 800px;
+}
+
+/*Definition des Menues oberhalb der Website*/
+#topContainerMenu {
+	margin: 0px 7px 0px 9px;
+	width: 784px;
+	height: 145px;
+	position: absolute;
+}
+
+/*Definition des Websiteninhalts oberhalb der Website*/
+#contentContainer {
+	width: 730px;
+	margin: 0px auto 0px auto;
+	padding: 200px 30px 30px 40px;
+	background-color: #FFFFFF;
+	text-align: justify;
+}
+
+/*Definition der Ueberschrift 1*/
+h1 {
+	color: #4d4d4d;
+	margin: 0px 0px 10px 0px;
+	font-size: 1.2em;
+}
+
+/*Definition des Abstands für Aufzählungen*/
+ul {
+	margin-left: 20px;
+}
+
+#contentContainer a:link, #contentContainer a:visited {
+	text-decoration: none;
+	color: #333333;
+	border-bottom: 1px solid #CDCDCD;
+}
+
+#contentContainer a:hover, #contentContainer a:focus {
+	border-bottom: 1px solid #333333;
+}
+
+
+#aktuellesContainer
+{
+	float: right;
+	clear: right;
+	border: 1px solid #004e62;
+	color: #000000;
+	padding: 10px 20px 10px 20px;
+	width: 200px;
+	margin: 0px 0px 50px 20px;	
+}
+
+#aktuellesContainer h1
+{
+	color: #004e62;
+}
